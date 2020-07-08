@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Wrapper } from './styles'
-import { Main } from '../Main/index'
+import Main from '../Main/index'
 
 const Layout: React.FC = () => {
   return (
