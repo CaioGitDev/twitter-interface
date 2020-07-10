@@ -74,8 +74,22 @@ export const ProfileData = styled.div`
   }
   
 `;
+
 export const EditButton = styled.div`
 
+`;
+
+export const Fallowage = styled.div`
+  display: flex;
+
+  > span {
+    font-size: 15px;
+    color: var(--gray);
+
+    & + span {
+      margin-left: 20px;
+    }
+  }
 `;
 
 const iconCSS = css`
@@ -89,7 +103,4 @@ export const LocationIcon = styled(LocationOn)`
 `;
 export const CakeIcon = styled(Cake)`
  ${iconCSS}
-`;
-export const Fallowage = styled.div`
-
 `;
