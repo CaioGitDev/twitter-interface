@@ -1,12 +1,18 @@
 import React from 'react'
-import { Container, Retweeted, Body, Avatar, Content, Header, Dot, Description 
+import { Container, Retweeted, Body, Avatar, Content, Header, Dot, Description,
+  ImageContent,
+  Icons,
+  Status,
+  CommentIcon,
+  RetweetIcon,
+  LikeIcon 
 } from './style'
 
 const Tweet: React.FC = () => {
   return(
     <Container>
       <Retweeted>
-        Você reTweetou
+        Você Retweetou
       </Retweeted>
 
       <Body>
@@ -14,13 +20,30 @@ const Tweet: React.FC = () => {
 
         <Content>
           <Header>
-            <strong>Github</strong>
+            <strong>HotChilliPeper</strong>
             <span>@Github</span>
             <Dot />
 
             <Description>
               O ceu não é o limite 
             </Description>
+
+            <ImageContent />
+
+            <Icons>
+              <Status>
+                <CommentIcon />
+                65
+              </Status>
+              <Status>
+                <RetweetIcon />
+                43
+              </Status>
+              <Status>
+                <LikeIcon />
+                333
+              </Status>
+            </Icons>
           </Header>
         </Content>
       </Body>
