@@ -5,13 +5,15 @@ import { Container, Retweeted, Body, Avatar, Content, Header, Dot, Description,
   Status,
   CommentIcon,
   RetweetIcon,
-  LikeIcon 
+  LikeIcon,
+  RocketseatIcon
 } from './style'
 
 const Tweet: React.FC = () => {
   return(
     <Container>
       <Retweeted>
+        <RocketseatIcon />
         Você Retweetou
       </Retweeted>
 
