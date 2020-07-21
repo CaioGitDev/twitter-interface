@@ -1,5 +1,11 @@
 import styled, { css } from 'styled-components';
-import { ArrowLeft, Home, Search, Notifications, Email } from '../../styles/icons'
+import {
+  ArrowLeft,
+  Home,
+  Search,
+  Notifications,
+  Email,
+} from '../../styles/icons';
 
 export const Container = styled.div`
   display: flex;
@@ -57,7 +63,7 @@ export const BottomMenu = styled.div`
   left: 0;
   z-index: 2;
   background: var(--primary);
-  width: 100%;
+  width: 80%;
   border-top: 1px solid var(--outline);
   display: flex;
   justify-content: space-between;
