@@ -23,5 +23,5 @@ export const Item = styled.div`
 `;
 export const Title = styled.span`
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 `;
